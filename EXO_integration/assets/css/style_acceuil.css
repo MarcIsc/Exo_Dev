@@ -1,0 +1,17 @@
+main div:first-child{
+    display: flex;
+    justify-content: space-around;
+}
+
+main div:first-child img{
+    width: 30%;
+    height: 18rem;
+    border-radius: 1rem;
+    margin-top: 3rem;    
+}
+
+main div:nth-child(3) img{
+    width: 20%;
+    height: auto;
+
+}

@@ -1,0 +1,59 @@
+*{
+    text-decoration: none;
+}
+body{
+    background-color: #191919;
+}
+
+header{
+    background-color: #101010;
+    display: flex;
+    flex-flow: wrap row;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    align-content: center;   
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;    
+}
+nav a{
+    padding: 0 0.5rem 0 0;
+}
+/* **********IMAGES LOGO LIEN HEADER*************** */
+header a img{
+    width: 20%;
+}
+header a{    
+    width: 20%;
+    padding: 0 10px 0 20PX;
+    text-transform: uppercase;
+    font-size: 0.60rem;
+    color: gray;
+}
+/* ***************** Main  ******************** */
+
+/* ***************** Footer ******************* */
+
+footer{
+    background-color: #101010;
+    display: flex;
+    justify-content: space-around;    
+}
+footer div:nth-child(2) ul{
+    border-left: 1px ridge grey;
+    border-right: 1px ridge grey;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    margin-bottom: 2rem;    
+}
+footer  ul li{
+    margin-bottom: 0.5rem;
+    color: white;
+    font-weight: lighter;
+}
+footer div ul{
+    margin-top: 2rem;
+}
