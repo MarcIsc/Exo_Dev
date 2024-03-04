@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+    <title>Acceuil - Déserts du monde -</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="assets/images/logo.png" alt="image du logo"> </a>
+        <h1>Déserts du monde</h1>
+        <nav>
+            <a href="#">- Actualité -</a>
+            <a href="#">- Galerie -</a>
+            <a href="#">- Contact -</a>
+        </nav>
+    </header>
+<body>   
+
+    <h1>Contactez-nous</h1>
+    <form action="envoyer_message.php" method="post">
+        <label for="nom">Nom :</label><br>
+
+        <input type="text" id="nom" name="nom" required><br>
+        <label for="email">Email :</label><br>
+
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Message :</label><br>
+
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+        <input type="submit" value="Envoyer">
+    </form>
+</body>
+<footer>
+    <p>&copy 2014 - Les déserts du monde</p>
+</footer>
+</html>
