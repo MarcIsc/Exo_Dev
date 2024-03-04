@@ -12,7 +12,11 @@ a, ul{
 p, footer{
     font-size: 1.4rem;
     margin: 0.3rem 0 .5rem 0;
-    
+}
+footer p{
+    text-align: center;
+    padding-top: .5rem;
+    border-top: 0.1rem solid gray;
 }
 section p:last-child{
     width: 100%;
@@ -63,7 +67,7 @@ h1{
     font-size: 2.1rem;
     }    
     nav a{
-        background-color: gray;
+        background-color: #E2E2E2;
     }
     /* Paramètres des paragraphes */
     p{
@@ -111,7 +115,7 @@ h1{
     nav{
         display: flex;
         flex-flow: wrap row;
-        background-color: gray;        
+        background-color: #E2E2E2;        
     }
     nav{
         height: 2.6rem; 
