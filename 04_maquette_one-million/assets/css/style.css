@@ -1,0 +1,37 @@
+@import url(reset.css);
+@import url(bootstrap.min.css);
+@import url(bootstrap.bundle.min.js);
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    font-family: Arial;
+    font-size: 62.5%;
+    
+}
+img{
+    width: 100%;
+}
+header {
+    background-image: url(../images/hero-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    background-size: cover;
+    height: 60rem;
+    color: white;
+}
+/* *************************************************** */
+/*  Mes variables */
+
+var --orange #e74c3c 
+var --btn-hover #b83e30 
+var --btn-blanc #e74c3c
+var --color-fond-btn #fff
+var --btn-blc-hover #fff
+
+
+/* ************************************************** */
+
