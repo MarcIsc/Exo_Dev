@@ -1,0 +1,45 @@
+@import url();
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    font-size: 62.5%;
+}
+
+
+
+ /*section 1 avec une image de fond  */
+main section:nth-child(1){
+    background-image: url(../images/hero-image.jpg);
+    background-size: cover;
+    height: 200px;
+
+}
+
+.boite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 30px;
+    min-height: 200px;
+     padding: 1rem 1rem; 
+    text-align: center;
+    background-color: #ccc;
+}
+main{
+    text-align: center;
+}
+footer{
+    background-color: orange;
+    min-height: 100px;
+}
+button{
+    margin: 1rem;
+}
+.image-container{
+    
+    justify-content: center;
+    width: 30px;
+}

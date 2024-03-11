@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- Inclure Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css">
+      </head>
+<body class=" ">
+
+    <header class="container-fluid">
+        <nav class="navbar navbar-dark navbar-expand-sm bg-dark fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="assets/images/top-logo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1"  id="offcanvasDarkNavbar"   aria-labelledby="offcanvasDarkNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">One Million lines_</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end align-items-center flex-grow-1 pe-3">
+                  <li class="nav-item ">
+                    <a class="nav-link active " aria-current="page" href="contact.html">Who we are</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Get involved</a>
+                  </li>
+                  <li class="nav-item dropdown d-lg-none d-sm-none">
+                    <a class="nav-link dropdown-toggle" href="#" role="button"          data-bs-toggle="dropdown" aria-expanded="false">
+                      Nos Ecoles
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item" href="#">Colombbus</a></li>
+                      <li><a class="dropdown-item" href="#">10MentionWeb</a></li>
+                      <li><a class="dropdown-item" href="#">Ensiie</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                    </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex mt-3 d-lg-none d-sm-none" role="search"> 
+                    <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Rechercher</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main class="container-fluid">
+        <section class="row ">
+
+          <h1 class="col-12 col-sm-12">Contact us !</h1>
+
+          <p class="col-12 col-sm-8 mx-auto">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          <div class="d-flex flex-column ">
+
+            <button type="button" class="btn btn-secondary btn-sm  mx-auto">Learne More >></button>
+
+            <div class="d-flex justify-content-center align-items-center ">
+              <img src="assets/images/code.png" class="mx-auto img-fluid" alt="image code">
+            </div>
+
+            </div>
+            
+        </section>
+
+        <section class="row col-sm-6 mx-auto mb-3 mt-3">
+            <h1 class="border-bottom col-5 col-sm-5 mx-auto mb-2">get involved</h1>
+            <form action="#" method="post">
+                <div class="mb-3">
+                    <label for="prenom" class="form-label">votre prénom</label>
+
+                    <input type="text" class="form-control" id="prenom" placeholder="Votre prénom">
+                </div>
+                <div class="mb-3">
+                    <label for="nom" class="form-label">votre nom</label>
+
+                    <input type="text" class="form-control" id="nom" placeholder="Votre nom">
+                </div>
+                <div class="mb-3">
+                <label for="contacting" class="form-label">Why are you contacting us?</label>
+                <select class="form-select" aria-label="contacting">
+                    <option selected>Select an option</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Votre email</label>
+              <input type="email" class="form-control" id="email" placeholder="Votre email">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Votre message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+                  
+            </form>
+            <div>
+              <button type="button" class="btn btn-primary mx-auto">S'inscrire</button>
+            </div>
+            
+
+           
+            
+
+        </section>
+        
+    </main>
+    
+    <footer>
+        <div class="row">
+            <img src="assets/images/one-million-bottom-brand.png" alt="image footer">
+        </div>
+    </footer>
+    
+     <!-- Inclure Bootstrap JS (si nécessaire) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
